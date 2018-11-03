@@ -34,7 +34,7 @@ def sigmoid(weight):
 
 def NeuralNet(f1,f2,w1,w2,b):
 	"""
-	Sigmoid + propagation function
+	Sigmoid + propagation function:
 		Takes features, connections and bias as input
 		returns prediction
 	"""
@@ -42,3 +42,16 @@ def NeuralNet(f1,f2,w1,w2,b):
 	prediction = sigmoid(weight)
 	return prediction
 
+"""
+				   (prediction)
+     weight 1	   /          \\	weight 2
+  (connection 1)  /			   \\ (connection 2)
+				 /				\
+				/				 \
+			(feature_one)	 (feature_two)
+
+			weight = f1 * w1 + f2 *w2  + b
+			prediction = sigmoid(weight)
+
+
+"""
