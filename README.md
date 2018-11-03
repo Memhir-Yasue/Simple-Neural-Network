@@ -1,2 +1,2 @@
 # Simple-Neural-Network
-FOr practice
+For practice
