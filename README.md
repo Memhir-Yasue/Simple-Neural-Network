@@ -8,7 +8,7 @@ SEE BELOW TO LEARN
   (connection 1)  /			   \  (connection 2)
 				 /				\
 				/				 \
-			(feature_one)	 (feature_two)
+/			(feature_one)	 (feature_two)                              \
 
-			weight = f1 * w1 + f2 *w2  + b
-			prediction = sigmoid(weight)
+/			weight = f1 * w1 + f2 *w2  + b                              \
+/			prediction = sigmoid(weight)                                \
